@@ -18,7 +18,7 @@ def train():
     model = Model()
 
     with tf.Graph().as_default():
-        #x_train, y_train, x_val, y_val = dl.loadTrainData('DATA_NEW.pkl')  # here you could load your own data, use data_utils.py
+        x_train, y_train, x_val, y_val = dl.loadTrainData('DATA_NEW.pkl')  # here you could load your own data, use data_utils.py
 
         #x_train, y_train = dl.loadWholeData('D:\CourseWork\CNN\DATA_NEW.pkl')
 
